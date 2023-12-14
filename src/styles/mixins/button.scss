@@ -1,0 +1,6 @@
+@mixin button-base {
+  background-color: var(--color-orange-100);
+  color: var(--color-white-100);
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}

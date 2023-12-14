@@ -1,0 +1,16 @@
+@import "@/styles/common";
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 40px;
+  cursor: pointer;
+}
+
+.variant {
+  &-base {
+    @include button-base
+  }
+}
