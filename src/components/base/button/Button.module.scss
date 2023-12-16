@@ -5,12 +5,12 @@
   align-items: center;
   border: none;
   border-radius: 5px;
-  padding: 15px 40px;
+  padding: 15px 50px;
   cursor: pointer;
 }
 
 .variant {
   &-base {
-    @include button-base
+    @include button-base;
   }
 }
