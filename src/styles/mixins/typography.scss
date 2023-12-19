@@ -1,0 +1,63 @@
+//WEIGHT
+
+@mixin thin {
+  font-weight: 300;
+}
+
+@mixin normal {
+  font-weight: 400;
+}
+
+@mixin semi-bold {
+  font-weight: 500;
+}
+
+@mixin bold {
+  font-weight: 600;
+}
+
+@mixin extra-bold {
+  font-weight: 700;
+}
+
+//SIZE
+
+@mixin font-xxs {
+  font-size: 10px;
+}
+
+@mixin font-xs {
+  font-size: 12px;
+}
+
+@mixin font-sm {
+  font-size: 14px;
+}
+
+@mixin font-base {
+  font-size: 16px;
+}
+
+@mixin font-md {
+  font-size: 16px;
+}
+
+@mixin font-lg {
+  font-size: 24px;
+}
+
+@mixin font-xl {
+  font-size: 32px;
+}
+
+@mixin font-xxl {
+  font-size: 48px;
+}
+
+@mixin family-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+@mixin family-inter {
+  font-family: "Inter", sans-serif;
+}

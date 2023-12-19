@@ -1,10 +1,10 @@
-@import "text";
+@import "typography";
 @mixin button-base {
   position: relative;
   background-color: transparent;
   color: var(--color-white-100);
   letter-spacing: 1px;
-  @include font-m;
+  @include font-md;
   overflow: hidden;
 
   &:before {

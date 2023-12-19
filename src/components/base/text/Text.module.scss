@@ -1,0 +1,92 @@
+@import "@/styles/common";
+.weight {
+  &-300 {
+    @include thin;
+  }
+  &-400 {
+    @include normal;
+  }
+  &-500 {
+    @include semi-bold;
+  }
+  &-600 {
+    @include bold;
+  }
+  &-700 {
+    @include extra-bold;
+  }
+}
+
+.fontSize {
+  &-xxs {
+    @include xxs-text;
+  }
+
+  &-xs {
+    @include xs-text;
+  }
+
+  &-sm {
+    @include sm-text;
+  }
+
+  &-base {
+    @include base-text;
+  }
+
+  &-md {
+    @include md-text;
+  }
+
+  &-lg {
+    @include lg-text;
+  }
+
+  &-xl {
+    @include xl-text;
+  }
+
+  &-xxl {
+    @include xxl-text;
+  }
+}
+
+.color {
+  &-black {
+    @include black;
+  }
+
+  &-white {
+    @include white;
+  }
+
+  &-gray {
+    @include gray;
+  }
+
+  &-yellow {
+    @include yellow;
+  }
+
+  &-red {
+    @include red;
+  }
+
+  &-green {
+    @include green;
+  }
+}
+
+.fontFamily {
+  &-montserrat {
+    @include family-montserrat;
+  }
+
+  &-inter {
+    @include family-inter;
+  }
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
