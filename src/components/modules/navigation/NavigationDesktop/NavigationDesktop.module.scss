@@ -1,0 +1,9 @@
+@import "@/styles/common";
+.desktop {
+  display: none;
+  gap: 20px;
+
+  @include media-from(md) {
+    display: flex;
+  }
+}

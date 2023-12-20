@@ -1,0 +1,27 @@
+@import "@/styles/common";
+.mobile {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+
+  @include media-from(md) {
+    display: none;
+  }
+}
+
+.inner-mobile {
+  position: absolute;
+  top: -110vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--color-black-300);
+  transition: .4s;
+}
+
+.active {
+  top: 0;
+}
