@@ -25,7 +25,12 @@ export const Navigation: FC<NavigationProps> = ({ links, ...rest }) => {
           )}
         >
           {links?.map((link) => (
-            <Button key={link.text} text={link.text} href={link.href} />
+            <Button
+              key={link.text}
+              text={link.text}
+              href={link.href}
+              variant="link"
+            />
           ))}
         </div>
       </div>

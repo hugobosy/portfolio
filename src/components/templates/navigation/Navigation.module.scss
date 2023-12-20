@@ -3,6 +3,11 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  padding: 0;
+
+  @include media-from(md) {
+    padding: 20px;
+  }
 }
 
 .mobile {
@@ -33,6 +38,10 @@
 }
 
 .desktop {
-  display: flex;
+  display: none;
   gap: 20px;
+
+  @include media-from(md) {
+    display: flex;
+  }
 }
