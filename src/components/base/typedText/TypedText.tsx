@@ -38,7 +38,7 @@ export const TypedText: FC<TypedTextProps> = ({
   }, []);
 
   return (
-    <div className={styles.typedCursor}>
+    <div className={styles.wrapper}>
       <h1 className={styles.text} ref={el} />
     </div>
   );
