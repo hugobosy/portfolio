@@ -10,7 +10,7 @@ export interface TextProps extends HTMLProps<HTMLParagraphElement> {
   className?: string;
   weight?: "300" | "400" | "500" | "600" | "700";
   fontSize?: "xxs" | "xs" | "sm" | "md" | "lg" | "xl" | "xxl";
-  color?: "white" | "black" | "red" | "yellow" | "gray" | "green";
+  color?: "white" | "gray" | "orange";
   isUppercase?: boolean;
   fontFamily?: "montserrat" | "inter";
 }

@@ -19,42 +19,39 @@
 
 .fontSize {
   &-xxs {
-    @include xxs-text;
+    @include font-xxs;
   }
 
   &-xs {
-    @include xs-text;
+    @include font-xs;
   }
 
   &-sm {
-    @include sm-text;
+    @include font-sm;
   }
 
   &-base {
-    @include base-text;
+    @include font-base;
   }
 
   &-md {
-    @include md-text;
+    @include font-md;
   }
 
   &-lg {
-    @include lg-text;
+    @include font-lg;
   }
 
   &-xl {
-    @include xl-text;
+    @include font-xl;
   }
 
   &-xxl {
-    @include xxl-text;
+    @include font-xxl;
   }
 }
 
 .color {
-  &-black {
-    @include black;
-  }
 
   &-white {
     @include white;
@@ -64,16 +61,8 @@
     @include gray;
   }
 
-  &-yellow {
-    @include yellow;
-  }
-
-  &-red {
-    @include red;
-  }
-
-  &-green {
-    @include green;
+  &-orange {
+    @include orange;
   }
 }
 

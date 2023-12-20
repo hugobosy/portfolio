@@ -1,0 +1,11 @@
+@mixin white {
+  color: var(--color-white-100)
+}
+
+@mixin gray {
+  color: var(--color-gray-100)
+}
+
+@mixin orange {
+  color: var(--color-orange-100)
+}
