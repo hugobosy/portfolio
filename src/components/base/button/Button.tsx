@@ -5,7 +5,7 @@ import styles from "./Button.module.scss";
 
 export interface ButtonProps
   extends HTMLAttributes<HTMLButtonElement | HTMLAnchorElement> {
-  type: "submit" | "button" | "reset";
+  type?: "submit" | "button" | "reset";
   href?: string;
   text: string;
   variant?: "base" | "outline";
@@ -16,7 +16,7 @@ export const Button: FC<ButtonProps> = ({
   href,
   type,
   onClick,
-  variant = 'base',
+  variant,
   className,
   ...rest
 }) => {

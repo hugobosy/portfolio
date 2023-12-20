@@ -1,12 +1,11 @@
 "use client";
-import { Button } from "@/components/base/button/Button";
-import { TypedText } from "@/components/base/typedText/TypedText";
 import { Navigation } from "@/components/templates/navigation/Navigation";
+import { Menu } from "@/const/menu";
 
 export default function Home() {
   return (
     <main>
-      <Navigation />
+      <Navigation links={Menu} />
     </main>
   );
 }

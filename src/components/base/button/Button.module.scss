@@ -9,6 +9,14 @@
   cursor: pointer;
 }
 
+.link {
+  @include font-base;
+  color: var(--color-gray-100);
+  &:hover {
+    color: var(--color-orange-100);
+  }
+}
+
 .variant {
   &-base {
     @include button-base;
