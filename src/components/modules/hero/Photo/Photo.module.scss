@@ -1,0 +1,35 @@
+@import "@/styles/common";
+.wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  padding: 0 20px;
+  //@include media-from(md) {
+  //  background-color: var(--color-black-100);
+  //}
+}
+
+.image {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+
+.circle {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(calc(-50% - 4px));
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: var(--color-orange-100);
+  z-index: -1;
+
+  @include media-from(xs) {
+    width: 250px;
+    height: 250px;
+    top: -10%;
+    transform: translate(calc(-50% - 2px));
+  }
+}

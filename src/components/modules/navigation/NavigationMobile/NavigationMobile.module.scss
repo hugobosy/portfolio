@@ -3,6 +3,7 @@
   display: flex;
   justify-content: flex-end;
   width: 100%;
+  z-index: 99;
 
   @include media-from(md) {
     display: none;
