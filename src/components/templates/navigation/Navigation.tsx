@@ -29,7 +29,16 @@ export const Navigation: FC<NavigationProps> = ({ links, ...rest }) => {
           ))}
         </div>
       </div>
-      <div className={styles.desktop}></div>
+      <div className={styles.desktop}>
+        {links?.map((link) => (
+          <Button
+            key={link.text}
+            text={link.text}
+            href={link.href}
+            variant="link"
+          />
+        ))}
+      </div>
     </nav>
   );
 };

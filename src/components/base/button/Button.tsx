@@ -8,7 +8,7 @@ export interface ButtonProps
   type?: "submit" | "button" | "reset";
   href?: string;
   text: string;
-  variant?: "base" | "outline";
+  variant?: "base" | "outline" | "link";
 }
 
 export const Button: FC<ButtonProps> = ({

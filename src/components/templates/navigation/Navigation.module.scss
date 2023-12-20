@@ -1,3 +1,4 @@
+@import "@/styles/common";
 .wrapper {
   display: flex;
   align-items: center;
@@ -8,6 +9,10 @@
   display: flex;
   justify-content: flex-end;
   width: 100%;
+
+  @include media-from(md) {
+    display: none;
+  }
 }
 
 .inner-mobile {
@@ -25,4 +30,9 @@
 
 .active {
   top: 0;
+}
+
+.desktop {
+  display: flex;
+  gap: 20px;
 }

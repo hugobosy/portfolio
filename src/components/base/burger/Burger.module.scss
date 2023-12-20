@@ -1,3 +1,4 @@
+@import "@/styles/common";
 .burger {
   display: flex;
   flex-direction: column;
@@ -10,6 +11,10 @@
   cursor: pointer;
   overflow: hidden;
   z-index: 99;
+
+  @include media-from(md) {
+    display: none;
+  }
 }
 
 .line {
